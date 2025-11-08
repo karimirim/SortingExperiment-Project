@@ -26,10 +26,10 @@ public class DoubleLinkedList {
             tail = newNode;
         }
     }
-    public void swapByData(int data1, int data2){
+    public void swapByData(int dataA, int dataB){
         Node nodeA = head;
         Node nodeB = head;
-        while(nodeA != null && nodeA.data != data1){
+        while(nodeA != null && nodeA.data != dataA){
             nodeA = nodeA.next;
         }
         while(nodeB.data != data2 && nodeB != null ){
